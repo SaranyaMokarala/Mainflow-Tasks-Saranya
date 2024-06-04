@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Task1</title>
+        <title>Task2</title>
+        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+        rel="stylesheet">
     </head>
     <body>
         <header class="web">
-            <h1 id="head">I am Saranya</h1>
-            <h2 id="head">Student/Web developer</h2>
-            <nav>
+            <h1 id="head" class="lg:text-5xl md:text-4xl text-3xl">I am Saranya</h1>
+            <h2 id="head" class="lg:text-3xl md:text-2xl text-xl">Student/Web developer</h2>
+            <nav class="mt-6">
                 <ul>
                     <li class="navigation"><a href="#home">Home</a></li>
                     <li class="navigation"><a href="#About">About Me</a></li>
@@ -19,20 +21,19 @@
             <section id="About">
                 <img id="me" src="My photo.jpeg" alt="My photo">
                 <div>
-                <h4>About Me</h4>
+                <h4 class="text-xl">About Me</h4>
                 
                 <section>
                     <p>Name: M. S. L. V. Saranya</p>
                     <p>Qualification: B.Tech CSE Specialization in AIML</p>
                 </section>
                 <section>
-                    <h4>Skills</h4>
+                    <h4 class="text-xl">Skills</h4>
                     <p>Frontend development (HTML/CSS/JavaScript)</p>
                     <p>Data Structures</p>
                     <p>Machine Learning</p>
                     <h5>Programming languages</h5>
                     <p>Python</p>
-                    <p>Java</p>
                     <p>C++</p>
 
                 </section>
@@ -42,17 +43,13 @@
 
             <center>
                 <section id="Contact" class="con">
-                    <h4>Contact Me</h4>
+                    <h4 class="text-xl">Contact Me</h4>
                     <p>mslv.saranya@gmail.com</p>
-                    <a href="https://www.linkedin.com/in/saranya-mokarala">LinkedIn</a><br><br>
+                    <a href="https://www.linkedin.com/in/saranya-mokarala">LinkedIn</a><br>
     
                     <a href="https://github.com/SaranyaMokarala">Github</a>
                 </section>
-            </center>
-            
-            
-            
-            
+            </center>                                            
         </main>
         <footer class="Web">
             <p>&copy; Saranya Mokarala Portfolio. All rights reserved.</p>
@@ -67,9 +64,9 @@
         }
         nav
         {
-            right: 20px;
+            right: 5px;
             position: absolute;
-            width: 400px;
+            width: 380px;
         }
         .eve
         {
@@ -111,8 +108,8 @@
         }
         #me
         {
-            width: auto;
-            height: 400px;
+            width: 200px;
+            
         }
         #head
         {
